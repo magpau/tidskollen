@@ -1,6 +1,6 @@
 # Tidskollen
 
-One page app (React + Vite) showing time, day and date in a very readable way.
+One page app (React + Vite) showing time, day and date in a very readable way. Designed for people with disabilities such as Alzheimer’s patients.
 
 
 Currently, two official plugins are available:
