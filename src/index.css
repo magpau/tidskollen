@@ -1,0 +1,48 @@
+/* Ensure the body and html take up the full viewport */
+html, body {
+  height: 100%;
+  width: 100%; /* Ensures full width coverage */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5DC; /* Light beige */
+  color: #333333; /* Dark gray */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  text-align: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  box-sizing: border-box; /* Prevents padding from affecting layout */
+}
+
+h1 {
+  font-size: 6vw;
+}
+
+h2, h3 {
+  font-size: 4vw;
+}
+
+h3 {
+  color: #F4A460; /* Muted orange */
+}
+
+/* Night Mode */
+body.night-mode {
+  background-color: #1C1C1C; /* Dark gray */
+  color: #D3D3D3; /* Light gray */
+}
+
+body.night-mode h3 {
+  color: #FF6347; /* Soft red */
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 10vw;
+  }
+  h2, h3 {
+      font-size: 6vw;
+  }
+}
