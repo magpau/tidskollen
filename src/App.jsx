@@ -34,7 +34,7 @@ function App() {
       return "Dag"; // Daytime (late morning)
     } else if (hours >= 12 && hours < 17) {
       return "Eftermiddag"; // Afternoon
-    } else if (hours >= 17 && hours < 22) {
+    } else if (hours >= 17 && hours < 23) {
       return "Kväll"; // Evening
     } else {
       return "Natt"; // Nighttime
