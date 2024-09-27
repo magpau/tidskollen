@@ -1,0 +1,9 @@
+{
+    "title": "Simply the right time",
+    "description": "This app helps you track time of day, date and more to stay oriented.",
+    "morning": "Morning",
+    "day": "Day",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "night": "Night"
+  }
