@@ -3,6 +3,7 @@ import './App.css';
 import useDayNightMode from "./hooks/useDayNightMode";
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   // Invoke the day/night mode hook
@@ -74,11 +75,12 @@ function App() {
 
   return (
     <div>
-        {/* Dynamic Meta Tags and Title with react-helmet */}
-        <Helmet>
+      {/* Dynamic Meta Tags and Title with react-helmet */}
+      <Helmet>
         <title>{t('title')}</title>
         <meta name="description" content={t('description')}/>
       </Helmet>
+      <Analytics />
 
       <h1>{ctime}</h1>
       <h2>{cweekday}</h2>
